@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -102,13 +101,13 @@ export default {
             transform: 'translate(0, 0)',
           },
           '25%': {
-            transform: 'translate(-50vw, 30vh) scale(1.2)',
+            transform: 'translate(-60vw, 40vh) scale(1.3)',
           },
           '50%': {
-            transform: 'translate(20vw, -40vh) scale(0.8)',
+            transform: 'translate(30vw, -50vh) scale(0.7)',
           },
           '75%': {
-            transform: 'translate(40vw, 40vh) scale(1.1)',
+            transform: 'translate(50vw, 50vh) scale(1.2)',
           },
         },
 			},
@@ -116,7 +115,7 @@ export default {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
         'gradient': 'gradient 15s ease-in-out infinite',
-        'glow-move': 'glow-move 40s ease-in-out infinite',
+        'glow-move': 'glow-move 20s ease-in-out infinite',
 			}
 		}
 	},
