@@ -17,7 +17,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <div className="flex items-center gap-2">
-          <Icon iconName="gem" className="h-8 w-8 text-primary" />
+          <Icon iconName="gem" className="h-6 w-6 text-primary" strokeWidth={1.5} />
           <span className="text-lg font-normal">BrightForge</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
