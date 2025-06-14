@@ -3,7 +3,14 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 import Icon from './Icon';
 
-const navLinks = ["Home", "Features", "Packages", "Services", "Blog", "Contact Us"];
+const navLinks = [
+  { title: "Platform", href: "#platform" },
+  { title: "Features", href: "#features" },
+  { title: "Solutions", href: "#solutions" },
+  { title: "Services", href: "#services" },
+  { title: "Pricing", href: "#pricing" },
+  { title: "FAQ", href: "#faq" },
+];
 
 const Header = () => {
   return (
@@ -11,12 +18,12 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <div className="flex items-center gap-2">
           <Icon iconName="star" className="h-8 w-8 text-primary" />
-          <span className="text-xl font-bold">LOGO HERE</span>
+          <span className="text-xl font-bold">BrightForge AI</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
-            <a key={link} href="#" className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
-              {link}
+            <a key={link.title} href={link.href} className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+              {link.title}
             </a>
           ))}
         </nav>

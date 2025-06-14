@@ -10,15 +10,14 @@ const Hero = () => {
       </div>
       <div className="container mx-auto text-center px-4">
         <h1 className="pb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-snug text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-rose-500 animate-gradient [background-size:200%_auto]">
-          Fueling SaaS Growth with <br />
-          <span>Smart Marketing</span> Strategies!
+          Welcome to BrightForge AI
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
-          Your ultimate answer is just a click away to boost your business growth. We craft data-driven marketing, strategic content, and walk customers through helping you to drive scale faster than ever.
+          Where intelligent marketing meets growth. We create AI-powered, data-led strategies and engaging content that guide your audience — helping your business scale at record speed.
         </p>
         <div className="mt-8 flex justify-center gap-4">
-          <Button size="lg" className="font-bold">Get Started Now</Button>
-          <Button size="lg" variant="outline" className="font-bold">Learn from Experts</Button>
+          <Button size="lg" className="font-bold">Launch Your Strategy</Button>
+          <Button size="lg" variant="outline" className="font-bold">Learn from Industry Experts</Button>
         </div>
       </div>
     </section>

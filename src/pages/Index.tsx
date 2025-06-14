@@ -1,3 +1,4 @@
+
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -11,10 +12,12 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Icon from "@/components/Icon";
 
 const ProductShowcase = () => (
-  <section className="py-20 lg:py-32">
+  <section id="platform" className="py-20 lg:py-32">
     <div className="container mx-auto px-4">
-      <div className="text-center">
-        <p className="text-primary font-semibold">PRODUCT</p>
+      <div className="text-center max-w-3xl mx-auto">
+        <p className="text-primary font-semibold">PLATFORM</p>
+        <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Command Center</h2>
+        <p className="mt-4 text-lg text-muted-foreground">Your marketing, content, and insights — all in one intuitive dashboard.</p>
       </div>
       <div className="mt-8">
         <Card className="overflow-hidden">
@@ -34,16 +37,16 @@ const ProductShowcase = () => (
 
 const ContentRevolution = () => {
     const items = [
-        { icon: "link", title: "Global Translations", description: "Seamlessly connect with an international audience through accurate and culturally sensitive translations." },
-        { icon: "link", title: "Social Media Creator", description: "Design, research, and create engaging social media posts that stand out in crowded digital spaces." },
-        { icon: "file-text", title: "Blog Post Managing", description: "Streamline your blog writing process with AI-powered drafts and creative insights to help you connect with your readers." },
+        { icon: "globe", title: "Multilingual Content", description: "Reach global markets with smart, culturally tuned translations." },
+        { icon: "share-2", title: "Social Post Builder", description: "Research, design, and publish thumb-stopping social content." },
+        { icon: "file-text", title: "Blog Assistant", description: "Accelerate your publishing with guided drafts and AI suggestions tailored to your tone." },
     ]
     return (
-        <section className="py-20 lg:py-32">
+        <section id="services" className="py-20 lg:py-32">
             <div className="container mx-auto px-4 text-center">
                 <p className="text-primary font-semibold">SERVICES</p>
-                <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Revolutionize Your Content with AI Precision</h2>
-                <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">Elevate your brand with responsive copywriting. From creating campaigns to providing social content and blogs, our AI is key to ensuring your message resonates with your audience, anywhere.</p>
+                <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
+                <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">From blog posts to global campaigns, BrightForge AI delivers precise, impactful content that resonates with your audience wherever they are.</p>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
                     {items.map(item => (
                         <Card key={item.title} className="bg-primary/5 border-primary/20">
@@ -69,10 +72,10 @@ const FinalCTA = () => (
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(120,40,200,0.2),transparent_60%)]"></div>
       </div>
       <div className="container mx-auto text-center px-4">
-        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter">Empower Your Vision with <br/> Smarter AI Solutions</h2>
-        <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">Unleash the power of AI to drive your workflows. Our creativity and data-driven solutions let us cater to every customer's needs, ensuring efficiency and excellence.</p>
+        <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter">Empower Your Marketing with AI-Driven Intelligence</h2>
+        <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">BrightForge helps you build faster, smarter, and with more clarity. Join thousands using AI to power their marketing edge.</p>
         <div className="mt-8">
-            <Button size="lg" className="font-bold">Join the Revolution</Button>
+            <Button size="lg" className="font-bold">Get Started Today</Button>
         </div>
       </div>
     </section>

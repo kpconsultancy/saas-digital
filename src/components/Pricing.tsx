@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -5,24 +6,24 @@ import Icon from './Icon';
 
 const plans = [
     {
-        name: "Starter Plan",
+        name: "Starter",
         price: "$19",
-        description: "For individuals and small teams.",
-        features: ["10 Projects", "Basic Analytics", "24/7 Support", "10GB Storage"],
+        description: "Ideal for solo creators and small teams.",
+        features: ["10 Projects", "Essential Analytics", "24/7 Support", "10GB Storage"],
         isPopular: false,
     },
     {
-        name: "Professional Plan",
+        name: "Professional",
         price: "$49",
-        description: "For growing businesses and professionals.",
-        features: ["Unlimited Projects", "Advanced Analytics", "Priority Support", "100GB Storage", "Team Collaboration"],
+        description: "For fast-growing businesses.",
+        features: ["Unlimited Projects", "Advanced Analytics", "Priority Support", "100GB Storage", "Team Access"],
         isPopular: true,
     },
     {
-        name: "Enterprise Plan",
+        name: "Enterprise",
         price: "$99",
-        description: "For large organizations and enterprises.",
-        features: ["Everything in Pro", "Dedicated Account Manager", "Custom Integrations", "24/7/365 Support"],
+        description: "Tailored for large teams.",
+        features: ["Everything in Pro", "Dedicated Manager", "API & Custom Integrations", "24/7/365 Support"],
         isPopular: false,
     }
 ];
@@ -33,7 +34,7 @@ const Pricing = () => {
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto">
                     <p className="text-primary font-semibold">PRICING</p>
-                    <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Choose a Plan That Suits Your Needs</h2>
+                    <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Find a Plan That Works for You</h2>
                 </div>
                 <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
                     {plans.map(plan => (
@@ -57,7 +58,7 @@ const Pricing = () => {
                                 </ul>
                             </CardContent>
                             <CardFooter>
-                                <Button className="w-full" variant={plan.isPopular ? "default" : "outline"}>Get Started</Button>
+                                <Button className="w-full" variant={plan.isPopular ? "default" : "outline"}>Start Now</Button>
                             </CardFooter>
                         </Card>
                     ))}

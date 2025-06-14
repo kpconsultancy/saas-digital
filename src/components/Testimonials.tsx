@@ -4,9 +4,9 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 const testimonials = [
-  { name: "Sarah Johnson", title: "Marketing Director", quote: "This tool has revolutionized our content strategy. The AI-powered insights are a game-changer for our team.", avatar: "SJ" },
-  { name: "James Barker", title: "Founder @ ScaleUp", quote: "As a startup, we need to move fast. This platform allows us to produce high-quality marketing materials at an incredible speed. Highly recommended!", avatar: "JB", isPopular: true },
-  { name: "Emily Harper", title: "Lead SEO Specialist", quote: "The SEO optimizer is phenomenal. We've seen a significant jump in our organic rankings since we started using it.", avatar: "EH" },
+  { name: "L. Tran", title: "Content Manager", quote: "BrightForge completely transformed our content pipeline. The insights are invaluable.", avatar: "LT" },
+  { name: "A. Rivera", title: "Co-founder @ LaunchPoint", quote: "We're a startup with limited time — this tool let us ship high-quality marketing in hours, not weeks.", avatar: "AR", isPopular: true },
+  { name: "M. Ellis", title: "SEO Consultant", quote: "SEO results blew us away. Rankings up, bounce rates down. Love it.", avatar: "ME" },
 ];
 
 const Testimonials = () => {
@@ -14,8 +14,8 @@ const Testimonials = () => {
     <section id="testimonials" className="py-20 lg:py-32 bg-card/30">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
-            <p className="text-primary font-semibold">TESTIMONIALS</p>
-            <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Hear What Our Clients Have to Say</h2>
+            <p className="text-primary font-semibold">CLIENT FEEDBACK</p>
+            <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">What Users Are Saying</h2>
         </div>
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {testimonials.map(t => (

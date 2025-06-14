@@ -4,12 +4,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from './Icon';
 
 const features = [
-  { icon: "settings", title: "Content Generator", description: "Generate engaging content tailored to your audience with just a click." },
-  { icon: "search", title: "SEO Optimizer", description: "Optimize your content to rank higher in search engines and connect with consumers." },
-  { icon: "file-text", title: "Creative Headlines", description: "Capture attention instantly with catchy, data-backed headlines that convert." },
-  { icon: "link", title: "Social Media Posts", description: "Craft share-worthy social content that drives traffic and engagement effortlessly." },
-  { icon: "file", title: "Email Copy Wizard", description: "Write persuasive email copy that converts leads into loyal customers." },
-  { icon: "list", title: "Analytics Insights", description: "Track performance and refine strategies with actionable insights from our data." },
+  { icon: "settings", title: "Content Crafter", description: "Create custom content aligned with your brand in just seconds." },
+  { icon: "search", title: "Search Engine Booster", description: "Enhance your visibility with smart SEO tools built to improve rankings." },
+  { icon: "file-text", title: "Headline Creator", description: "Catch attention fast with optimized, performance-driven headlines." },
+  { icon: "link", title: "Social Snippets", description: "Effortlessly build engaging, click-worthy posts for every social platform." },
+  { icon: "file", title: "Email Composer", description: "Turn leads into loyal customers with compelling AI-generated email campaigns." },
+  { icon: "list", title: "Insight Engine", description: "Monitor, learn, and optimize with real-time data you can act on." },
 ];
 
 const Features = () => {
@@ -19,7 +19,7 @@ const Features = () => {
             <div className="text-center max-w-3xl mx-auto">
                 <p className="text-primary font-semibold">FEATURES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">
-                    Innovative Features That Redefine Possibilities
+                    Smarter Tools That Drive Real Results
                 </h2>
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
