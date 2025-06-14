@@ -4,12 +4,12 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from './Icon';
 
 const features = [
-  { icon: "bot", title: "Content Generator", description: "Generate engaging content tailored to your audience with just a click." },
-  { icon: "search-check", title: "SEO Optimizer", description: "Optimize your content to rank higher in search engines and connect with consumers." },
+  { icon: "settings", title: "Content Generator", description: "Generate engaging content tailored to your audience with just a click." },
+  { icon: "search", title: "SEO Optimizer", description: "Optimize your content to rank higher in search engines and connect with consumers." },
   { icon: "file-text", title: "Creative Headlines", description: "Capture attention instantly with catchy, data-backed headlines that convert." },
-  { icon: "share-2", title: "Social Media Posts", description: "Craft share-worthy social content that drives traffic and engagement effortlessly." },
-  { icon: "mail", title: "Email Copy Wizard", description: "Write persuasive email copy that converts leads into loyal customers." },
-  { icon: "bar-chart-2", title: "Analytics Insights", description: "Track performance and refine strategies with actionable insights from our data." },
+  { icon: "link", title: "Social Media Posts", description: "Craft share-worthy social content that drives traffic and engagement effortlessly." },
+  { icon: "file", title: "Email Copy Wizard", description: "Write persuasive email copy that converts leads into loyal customers." },
+  { icon: "list", title: "Analytics Insights", description: "Track performance and refine strategies with actionable insights from our data." },
 ];
 
 const Features = () => {

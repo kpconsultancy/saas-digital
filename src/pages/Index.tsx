@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -35,9 +34,9 @@ const ProductShowcase = () => (
 
 const ContentRevolution = () => {
     const items = [
-        { icon: "globe", title: "Global Translations", description: "Seamlessly connect with an international audience through accurate and culturally sensitive translations." },
-        { icon: "share-2", title: "Social Media Creator", description: "Design, research, and create engaging social media posts that stand out in crowded digital spaces." },
-        { icon: "book-open", title: "Blog Post Managing", description: "Streamline your blog writing process with AI-powered drafts and creative insights to help you connect with your readers." },
+        { icon: "link", title: "Global Translations", description: "Seamlessly connect with an international audience through accurate and culturally sensitive translations." },
+        { icon: "link", title: "Social Media Creator", description: "Design, research, and create engaging social media posts that stand out in crowded digital spaces." },
+        { icon: "file-text", title: "Blog Post Managing", description: "Streamline your blog writing process with AI-powered drafts and creative insights to help you connect with your readers." },
     ]
     return (
         <section className="py-20 lg:py-32">

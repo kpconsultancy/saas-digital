@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="md:col-span-1">
             <div className="flex items-center gap-2">
-              <Icon iconName="gem" className="h-8 w-8 text-primary" />
+              <Icon iconName="star" className="h-8 w-8 text-primary" />
               <span className="text-xl font-bold">LOGO HERE</span>
             </div>
             <p className="mt-4 text-muted-foreground text-sm">Fueling your growth with smart AI-powered marketing solutions.</p>
