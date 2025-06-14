@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black" />
       </div>
       <div className="container mx-auto text-center px-4">
-        <h1 className="pb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-snug text-transparent bg-clip-text bg-gradient-to-r from-primary to-pink-500 bg-[length:200%_auto] animate-gradient">
+        <h1 className="pb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-snug text-transparent bg-clip-text bg-gradient-to-r from-primary via-pink-500 to-primary bg-[length:200%_auto] animate-gradient">
           Welcome to BrightForge AI
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
