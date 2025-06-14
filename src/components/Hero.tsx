@@ -9,7 +9,7 @@ const Hero = () => {
         <div className="absolute inset-0 bg-black"></div>
       </div>
       <div className="container mx-auto text-center px-4">
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-tight text-transparent bg-clip-text bg-gradient-to-r from-primary via-fuchsia-500 to-rose-500 animate-gradient [background-size:200%_auto]">
+        <h1 className="pb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-snug text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-rose-500 animate-gradient [background-size:200%_auto]">
           Fueling SaaS Growth with <br />
           <span>Smart Marketing</span> Strategies!
         </h1>
