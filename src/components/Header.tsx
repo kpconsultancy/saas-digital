@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <div className="flex items-center gap-2">
           <Icon iconName="gem" className="h-8 w-8 text-primary" />
-          <span className="text-xl font-semibold">BrightForge AI</span>
+          <span className="text-lg font-medium">BrightForge</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
