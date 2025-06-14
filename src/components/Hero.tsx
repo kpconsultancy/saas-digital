@@ -6,10 +6,11 @@ const Hero = () => {
   return (
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="absolute inset-0 -z-10">
-        <div className="absolute inset-0 bg-black"></div>
+        <div className="absolute inset-0 bg-black" />
+        <div className="absolute -top-1/4 -right-1/4 w-[500px] h-[500px] bg-primary/20 rounded-full blur-3xl opacity-50 animate-glow-move" />
       </div>
       <div className="container mx-auto text-center px-4">
-        <h1 className="pb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-snug text-transparent bg-clip-text bg-gradient-to-r from-primary via-white to-rose-500 animate-gradient [background-size:200%_auto]">
+        <h1 className="pb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-snug text-white">
           Welcome to BrightForge AI
         </h1>
         <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">
