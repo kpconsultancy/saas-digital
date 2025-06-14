@@ -7,7 +7,7 @@ const Hero = () => {
     <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-black" />
-        <div className="absolute -top-1/4 -right-1/4 w-[800px] h-[800px] bg-primary/30 rounded-full blur-3xl animate-glow-move" />
+        <div className="absolute -top-1/4 -right-1/4 w-[800px] h-[800px] bg-primary/40 rounded-full blur-3xl animate-glow-move" />
       </div>
       <div className="container mx-auto text-center px-4">
         <h1 className="pb-4 text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-snug text-white">

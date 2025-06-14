@@ -101,13 +101,13 @@ export default {
             transform: 'translate(0, 0)',
           },
           '25%': {
-            transform: 'translate(-60vw, 40vh) scale(1.3)',
+            transform: 'translate(-30vw, 20vh) scale(1.3)',
           },
           '50%': {
-            transform: 'translate(30vw, -50vh) scale(0.7)',
+            transform: 'translate(15vw, -25vh) scale(0.7)',
           },
           '75%': {
-            transform: 'translate(50vw, 50vh) scale(1.2)',
+            transform: 'translate(25vw, 25vh) scale(1.2)',
           },
         },
 			},
