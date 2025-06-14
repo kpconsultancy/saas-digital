@@ -10,7 +10,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
         <div className="flex items-center gap-2">
-          <Icon name="gem" className="h-8 w-8 text-primary" />
+          <Icon iconName="gem" className="h-8 w-8 text-primary" />
           <span className="text-xl font-bold">LOGO HERE</span>
         </div>
         <nav className="hidden md:flex items-center gap-6">
@@ -25,7 +25,7 @@ const Header = () => {
         </div>
         <div className="md:hidden">
             <Button size="icon" variant="ghost">
-                <Icon name="menu" className="h-6 w-6" />
+                <Icon iconName="menu" className="h-6 w-6" />
             </Button>
         </div>
       </div>

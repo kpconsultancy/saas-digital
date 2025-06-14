@@ -49,7 +49,7 @@ const ContentRevolution = () => {
                     {items.map(item => (
                         <Card key={item.title} className="bg-primary/5 border-primary/20">
                             <CardHeader>
-                                <Icon name={item.icon as any} className="w-8 h-8 text-primary mb-2" />
+                                <Icon iconName={item.icon as any} className="w-8 h-8 text-primary mb-2" />
                                 <CardTitle>{item.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
