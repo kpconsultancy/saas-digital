@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import Icon from './Icon';
@@ -47,7 +48,7 @@ const Solutions = () => {
                     <ul className="mt-6 space-y-4">
                         {solutionsList.map((item, i) => (
                             <li key={i} className="flex items-start gap-3">
-                                <Icon iconName="check-circle" className="w-5 h-5 text-primary mt-1 flex-shrink-0"/>
+                                <Icon iconName="check" className="w-5 h-5 text-primary mt-1 flex-shrink-0"/>
                                 <span className="text-muted-foreground">{item}</span>
                             </li>
                         ))}
