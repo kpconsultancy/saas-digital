@@ -27,7 +27,7 @@ const Features = () => {
                     <Card key={i} className="bg-card/50 border-border/50 hover:border-primary/50 transition-colors duration-300">
                         <CardHeader className="flex flex-row items-center gap-4">
                            <div className="bg-primary/10 p-3 rounded-lg">
-                             <Icon name={feature.icon as any} className="w-6 h-6 text-primary" />
+                             <Icon iconName={feature.icon as any} className="w-6 h-6 text-primary" />
                            </div>
                            <CardTitle>{feature.title}</CardTitle>
                         </CardHeader>

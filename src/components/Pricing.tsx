@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -51,7 +50,7 @@ const Pricing = () => {
                                 <ul className="space-y-3">
                                     {plan.features.map(feature => (
                                         <li key={feature} className="flex items-center gap-2">
-                                            <Icon name="check" className="w-5 h-5 text-primary" />
+                                            <Icon iconName="check" className="w-5 h-5 text-primary" />
                                             <span className="text-muted-foreground">{feature}</span>
                                         </li>
                                     ))}
