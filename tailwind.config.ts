@@ -96,26 +96,11 @@ export default {
             'background-position': '100% 50%',
           },
         },
-        'glow-move': {
-          '0%, 100%': {
-            transform: 'translate(0, 0)',
-          },
-          '25%': {
-            transform: 'translate(-30vw, 20vh) scale(1.3)',
-          },
-          '50%': {
-            transform: 'translate(15vw, -25vh) scale(0.7)',
-          },
-          '75%': {
-            transform: 'translate(25vw, 25vh) scale(1.2)',
-          },
-        },
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out',
-        'gradient': 'gradient 15s ease-in-out infinite',
-        'glow-move': 'glow-move 20s ease-in-out infinite',
+        'gradient': 'gradient 3s ease-in-out infinite',
 			}
 		}
 	},
