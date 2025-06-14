@@ -4,10 +4,10 @@ import { Button } from '@/components/ui/button';
 
 const Hero = () => {
   return (
-    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32">
+    <section className="relative pt-32 pb-20 lg:pt-48 lg:pb-32 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-background"></div>
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(120,40,200,0.2),transparent_60%)]"></div>
+        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(120,40,200,0.2),transparent_60%)] animate-blob"></div>
       </div>
       <div className="container mx-auto text-center px-4">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold tracking-tighter leading-tight">
