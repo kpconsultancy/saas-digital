@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Icon from './Icon';
 
@@ -10,7 +9,7 @@ const Footer = () => {
           <div className="md:col-span-1">
             <div className="flex items-center gap-2">
               <Icon iconName="gem" className="h-8 w-8 text-primary" />
-              <span className="text-lg font-medium">BrightForge</span>
+              <span className="text-lg font-normal">BrightForge</span>
             </div>
             <p className="mt-4 text-muted-foreground text-sm">Smarter Marketing. Greater Impact.</p>
           </div>
