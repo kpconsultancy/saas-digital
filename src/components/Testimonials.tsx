@@ -27,7 +27,7 @@ const Testimonials = () => {
             <h2 className="mt-2 text-2xl md:text-3xl font-extrabold tracking-tight">What Users Are Saying</h2>
         </div>
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
-          {testimonials.map(t => <Card key={t.name} className={`flex flex-col ${t.isPopular ? 'border-primary bg-primary/5' : ''}`}>
+          {testimonials.map(t => <Card key={t.name} className={`flex flex-col w-full max-w-xs mx-auto ${t.isPopular ? 'border-primary bg-primary/5' : ''}`}>
               <div className="p-6 flex flex-col items-center gap-2 text-center">
                   <Avatar>
                       <AvatarFallback>{t.avatar}</AvatarFallback>
