@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from './Icon';
@@ -36,8 +37,8 @@ const Features = () => {
                 </h2>
             </div>
             <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                {features.map((feature, i) => <Card key={i} className="bg-card/50 border-border/50 hover:border-primary/50 transition-colors duration-300">
-                        <CardHeader className="flex flex-row items-center gap-4">
+                {features.map((feature, i) => <Card key={i} className="text-center bg-card/50 border-border/50 hover:border-primary/50 transition-colors duration-300">
+                        <CardHeader className="items-center gap-4">
                            <div className="bg-primary/10 p-3 rounded-lg">
                              <Icon iconName={feature.icon as any} className="w-6 h-6 text-primary" />
                            </div>
