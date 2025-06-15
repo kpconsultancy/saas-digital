@@ -26,7 +26,7 @@ const ProductShowcase = () => (
             <span className="w-3 h-3 rounded-full bg-green-500"></span>
           </CardHeader>
           <CardContent className="p-0">
-            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072" alt="Product dashboard" className="w-full h-auto object-cover" />
+            <img src="/lovable-uploads/4f3c6b33-3e2d-4af2-affc-821751dcbf9c.png" alt="Product dashboard" className="w-full h-auto object-cover" />
           </CardContent>
         </Card>
       </div>
