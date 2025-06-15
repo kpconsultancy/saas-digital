@@ -12,7 +12,7 @@ import Icon from "@/components/Icon";
 const ProductShowcase = () => <section id="platform" className="pt-20 lg:pt-32 pb-0">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto">
-        <p className="text-primary font-semibold">PLATFORM</p>
+        <p className="text-primary font-thin text-xl my-[22px]">PLATFORM</p>
         <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Command Center</h2>
         <p className="mt-4 text-base text-white">Your marketing, content, and insights — all in one intuitive dashboard.</p>
       </div>
@@ -37,7 +37,7 @@ const ContentRevolution = () => {
   }];
   return <section id="services" className="py-20 lg:py-32">
             <div className="container mx-auto px-4 text-center">
-                <p className="text-primary font-semibold">SERVICES</p>
+                <p className="text-primary my-[22px] text-xl font-thin">SERVICES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
                 <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">From blog posts to global campaigns, BrightForge delivers precise, impactful content that resonates with your audience wherever they are.</p>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">

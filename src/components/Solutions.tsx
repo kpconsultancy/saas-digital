@@ -27,7 +27,7 @@ const Solutions = () => {
             <div className="grid lg:grid-cols-2 gap-12 items-center">
                 
                 <div>
-                    <p className="text-primary font-semibold">SOLUTIONS</p>
+                    <p className="text-primary text-xl font-thin text-center my-[22px]">SOLUTIONS</p>
                     <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">AI Marketing for Every Business, Everywhere</h2>
                     <p className="mt-4 text-muted-foreground">
                         Our advanced yet accessible tools are designed for all business types — no tech experience required.
