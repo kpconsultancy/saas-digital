@@ -9,7 +9,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Icon from "@/components/Icon";
-const ProductShowcase = () => <section id="platform" className="py-20 lg:py-32">
+const ProductShowcase = () => <section id="platform" className="pt-20 lg:pt-32 pb-0">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto">
         <p className="text-primary font-semibold">PLATFORM</p>
