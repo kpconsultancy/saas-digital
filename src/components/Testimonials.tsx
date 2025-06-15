@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -19,7 +20,7 @@ const testimonials = [{
   avatar: "ME"
 }];
 const Testimonials = () => {
-  return <section id="testimonials" className="py-20 lg:py-32 bg-card/30">
+  return <section id="testimonials" className="pt-0 lg:pt-0 pb-20 lg:pb-32 bg-card/30">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
             <p className="text-primary my-[22px] text-xl font-thin">CLIENT FEEDBACK</p>
