@@ -25,7 +25,7 @@ const solutionsList = ["Compatible with Windows, Mac, and Linux", "Built-in beha
 const Solutions = () => {
   return <section id="solutions" className="pt-4 lg:pt-8 pb-20 lg:pb-32 bg-card/30">
         <div className="container mx-auto px-4">
-            <div className="grid lg:grid-cols-2 gap-12 items-center">
+            <div className="grid gap-12 items-center">
                 
                 <div>
                     <p className="text-primary text-xl font-thin text-center my-[22px]">SOLUTIONS</p>
