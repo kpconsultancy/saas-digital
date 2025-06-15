@@ -23,7 +23,7 @@ const plans = [{
   isPopular: false
 }];
 const Pricing = () => {
-  return <section id="pricing" className="py-20 lg:py-32">
+  return <section id="pricing" className="py-10 lg:py-16">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto">
                     <p className="text-primary my-[22px] text-xl font-thin">PRICING</p>
