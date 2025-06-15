@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const Hero = () => {
@@ -14,7 +13,7 @@ const Hero = () => {
           Where intelligent marketing meets growth. We create AI-powered, data-led strategies and engaging content that guide your audience — helping your business scale at record speed.
         </p>
         <div className="mt-10 flex justify-center gap-4">
-          <Button size="lg" className="font-bold bg-purple-700 hover:bg-purple-600">Launch Your Strategy</Button>
+          <Button size="lg" className="font-bold">Launch Your Strategy</Button>
           
         </div>
       </div>
