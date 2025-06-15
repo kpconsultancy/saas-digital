@@ -61,7 +61,7 @@ const FinalCTA = () => <section className="relative py-20 lg:py-32">
       </div>
       <div className="container mx-auto text-center px-4">
         <h2 className="text-3xl md:text-4xl lg:text-5xl font-extrabold tracking-tighter">Empower Your Marketing with AI-Driven Intelligence</h2>
-        <p className="mt-6 max-w-2xl mx-auto text-lg text-muted-foreground">BrightForge helps you build faster, smarter, and with more clarity. Join thousands using AI to power their marketing edge.</p>
+        <p className="mt-6 max-w-2xl mx-auto text-white text-lg">BrightForge helps you build faster, smarter, and with more clarity. Join thousands using AI to power their marketing edge.</p>
         <div className="mt-8">
             <Button size="lg" className="font-bold">Get Started Today</Button>
         </div>
