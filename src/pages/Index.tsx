@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -10,7 +9,6 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Icon from "@/components/Icon";
-
 const ProductShowcase = () => <section id="platform" className="pt-12 lg:pt-20 pb-0">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto">
@@ -41,15 +39,15 @@ const ContentRevolution = () => {
             <div className="container mx-auto px-4 text-center">
                 <p className="text-primary my-[22px] text-xl font-thin">SERVICES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
-                <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">From blog posts to global campaigns, BrightForge delivers precise, impactful content that resonates with your audience wherever they are.</p>
+                <p className="mt-4 max-w-3xl mx-auto text-base font-light text-white">From blog posts to global campaigns, BrightForge delivers precise, impactful content that resonates with your audience wherever they are.</p>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                     {items.map(item => <Card key={item.title} className="bg-primary/5 border-primary/20">
                             <CardHeader>
                                 <Icon iconName={item.icon as any} className="w-8 h-8 text-primary mb-2 mx-auto" />
-                                <CardTitle>{item.title}</CardTitle>
+                                <CardTitle className="text-base">{item.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-muted-foreground">{item.description}</p>
+                                <p className="text-sm text-white">{item.description}</p>
                             </CardContent>
                         </Card>)}
                 </div>
