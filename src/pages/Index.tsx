@@ -19,16 +19,7 @@ const ProductShowcase = () => (
         <p className="mt-4 text-lg text-muted-foreground">Your marketing, content, and insights — all in one intuitive dashboard.</p>
       </div>
       <div className="mt-8">
-        <Card className="overflow-hidden">
-          <CardHeader className="p-2 bg-card/50 border-b flex-row items-center gap-1.5">
-            <span className="w-3 h-3 rounded-full bg-red-500"></span>
-            <span className="w-3 h-3 rounded-full bg-yellow-500"></span>
-            <span className="w-3 h-3 rounded-full bg-green-500"></span>
-          </CardHeader>
-          <CardContent className="p-0">
-            <img src="/lovable-uploads/4f3c6b33-3e2d-4af2-affc-821751dcbf9c.png" alt="Product dashboard" className="w-full h-auto object-cover" />
-          </CardContent>
-        </Card>
+        <img src="/lovable-uploads/4f3c6b33-3e2d-4af2-affc-821751dcbf9c.png" alt="Product dashboard" className="w-full h-auto object-cover rounded-lg border shadow-sm" />
       </div>
     </div>
   </section>
