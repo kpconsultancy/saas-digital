@@ -23,7 +23,7 @@ const data = [{
 }];
 const solutionsList = ["Compatible with Windows, Mac, and Linux", "Built-in behavior tracking and trend prediction", "Easy-to-use tools that scale with your team"];
 const Solutions = () => {
-  return <section id="solutions" className="py-10 lg:py-16">
+  return <section id="solutions" className="py-5 lg:py-8">
         <div className="container mx-auto px-4">
             <div className="grid gap-12 items-center">
                 

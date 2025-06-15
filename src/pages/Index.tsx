@@ -36,7 +36,7 @@ const ContentRevolution = () => {
     title: "Blog Assistant",
     description: "Accelerate your publishing with guided drafts and AI suggestions tailored to your tone."
   }];
-  return <section id="services" className="py-10 lg:py-16">
+  return <section id="services" className="py-5 lg:py-8">
             <div className="container mx-auto px-4 text-center">
                 <p className="text-primary my-[22px] text-xl font-thin">SERVICES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
