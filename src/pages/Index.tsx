@@ -41,10 +41,10 @@ const ContentRevolution = () => {
                 <p className="text-primary my-[22px] text-xl font-thin">SERVICES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
                 <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">From blog posts to global campaigns, BrightForge delivers precise, impactful content that resonates with your audience wherever they are.</p>
-                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
+                <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
                     {items.map(item => <Card key={item.title} className="bg-primary/5 border-primary/20">
                             <CardHeader>
-                                <Icon iconName={item.icon as any} className="w-8 h-8 text-primary mb-2" />
+                                <Icon iconName={item.icon as any} className="w-8 h-8 text-primary mb-2 mx-auto" />
                                 <CardTitle>{item.title}</CardTitle>
                             </CardHeader>
                             <CardContent>
@@ -86,3 +86,4 @@ const Index = () => {
     </div>;
 };
 export default Index;
+
