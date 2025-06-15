@@ -1,3 +1,4 @@
+
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -17,7 +18,7 @@ const ProductShowcase = () => <section id="platform" className="pt-12 lg:pt-20 p
         <p className="mt-4 text-base text-white">Your marketing, content, and insights — all in one intuitive dashboard.</p>
       </div>
       <div className="mt-8">
-        <img src="/lovable-uploads/4f3c6b33-3e2d-4af2-affc-821751dcbf9c.png" alt="Product dashboard" className="w-full h-auto object-cover rounded-lg border shadow-sm" />
+        <img src="/lovable-uploads/4f3c6b33-3e2d-4af2-affc-821751dcbf9c.png" alt="Product dashboard" className="w-3/5 mx-auto h-auto object-cover rounded-lg border shadow-sm" />
       </div>
     </div>
   </section>;
