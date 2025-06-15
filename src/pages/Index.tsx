@@ -1,3 +1,4 @@
+
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -36,7 +37,7 @@ const ContentRevolution = () => {
     title: "Blog Assistant",
     description: "Accelerate your publishing with guided drafts and AI suggestions tailored to your tone."
   }];
-  return <section id="services" className="py-20 lg:py-32">
+  return <section id="services" className="pt-10 lg:pt-16 pb-20 lg:pb-32">
             <div className="container mx-auto px-4 text-center">
                 <p className="text-primary my-[22px] text-xl font-thin">SERVICES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
