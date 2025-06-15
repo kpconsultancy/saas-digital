@@ -36,7 +36,7 @@ const Pricing = () => {
                     <p className="text-primary font-semibold">PRICING</p>
                     <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Find a Plan That Works for You</h2>
                 </div>
-                <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
+                <div className="mt-12 grid grid-cols-1 gap-8 max-w-lg mx-auto">
                     {plans.map(plan => (
                         <Card key={plan.name} className={`flex flex-col ${plan.isPopular ? 'border-primary bg-primary/5' : ''}`}>
                             <CardHeader>
