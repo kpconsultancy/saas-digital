@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -23,7 +24,7 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
             <p className="text-primary my-[22px] text-xl font-thin">CLIENT FEEDBACK</p>
-            <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">What Users Are Saying</h2>
+            <h2 className="mt-2 text-2xl md:text-3xl font-extrabold tracking-tight">What Users Are Saying</h2>
         </div>
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {testimonials.map(t => <Card key={t.name} className={`flex flex-col justify-between ${t.isPopular ? 'border-primary bg-primary/5' : ''}`}>
