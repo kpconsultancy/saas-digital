@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer } from 'recharts';
 import Icon from './Icon';
@@ -22,7 +23,7 @@ const data = [{
 }];
 const solutionsList = ["Compatible with Windows, Mac, and Linux", "Built-in behavior tracking and trend prediction", "Easy-to-use tools that scale with your team"];
 const Solutions = () => {
-  return <section id="solutions" className="py-20 lg:py-32 bg-card/30">
+  return <section id="solutions" className="pt-10 lg:pt-20 pb-20 lg:pb-32 bg-card/30">
         <div className="container mx-auto px-4">
             <div className="grid lg:grid-cols-2 gap-12 items-center">
                 
