@@ -9,37 +9,39 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Icon from "@/components/Icon";
-
-const ProductShowcase = () => (
-  <section id="platform" className="py-20 lg:py-32">
+const ProductShowcase = () => <section id="platform" className="py-20 lg:py-32">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto">
         <p className="text-primary font-semibold">PLATFORM</p>
         <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Command Center</h2>
-        <p className="mt-4 text-lg text-muted-foreground">Your marketing, content, and insights — all in one intuitive dashboard.</p>
+        <p className="mt-4 text-base text-white">Your marketing, content, and insights — all in one intuitive dashboard.</p>
       </div>
       <div className="mt-8">
         <img src="/lovable-uploads/4f3c6b33-3e2d-4af2-affc-821751dcbf9c.png" alt="Product dashboard" className="w-full h-auto object-cover rounded-lg border shadow-sm" />
       </div>
     </div>
-  </section>
-);
-
+  </section>;
 const ContentRevolution = () => {
-    const items = [
-        { icon: "globe", title: "Multilingual Content", description: "Reach global markets with smart, culturally tuned translations." },
-        { icon: "share-2", title: "Social Post Builder", description: "Research, design, and publish thumb-stopping social content." },
-        { icon: "file-text", title: "Blog Assistant", description: "Accelerate your publishing with guided drafts and AI suggestions tailored to your tone." },
-    ]
-    return (
-        <section id="services" className="py-20 lg:py-32">
+  const items = [{
+    icon: "globe",
+    title: "Multilingual Content",
+    description: "Reach global markets with smart, culturally tuned translations."
+  }, {
+    icon: "share-2",
+    title: "Social Post Builder",
+    description: "Research, design, and publish thumb-stopping social content."
+  }, {
+    icon: "file-text",
+    title: "Blog Assistant",
+    description: "Accelerate your publishing with guided drafts and AI suggestions tailored to your tone."
+  }];
+  return <section id="services" className="py-20 lg:py-32">
             <div className="container mx-auto px-4 text-center">
                 <p className="text-primary font-semibold">SERVICES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
                 <p className="mt-4 max-w-3xl mx-auto text-lg text-muted-foreground">From blog posts to global campaigns, BrightForge delivers precise, impactful content that resonates with your audience wherever they are.</p>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-left">
-                    {items.map(item => (
-                        <Card key={item.title} className="bg-primary/5 border-primary/20">
+                    {items.map(item => <Card key={item.title} className="bg-primary/5 border-primary/20">
                             <CardHeader>
                                 <Icon iconName={item.icon as any} className="w-8 h-8 text-primary mb-2" />
                                 <CardTitle>{item.title}</CardTitle>
@@ -47,16 +49,12 @@ const ContentRevolution = () => {
                             <CardContent>
                                 <p className="text-muted-foreground">{item.description}</p>
                             </CardContent>
-                        </Card>
-                    ))}
+                        </Card>)}
                 </div>
             </div>
-        </section>
-    )
-}
-
-const FinalCTA = () => (
-    <section className="relative py-20 lg:py-32">
+        </section>;
+};
+const FinalCTA = () => <section className="relative py-20 lg:py-32">
         <div className="absolute inset-0 -z-10">
             <div className="absolute inset-0 bg-background"></div>
             <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom,rgba(120,40,200,0.2),transparent_60%)]"></div>
@@ -68,12 +66,9 @@ const FinalCTA = () => (
             <Button size="lg" className="font-bold">Get Started Today</Button>
         </div>
       </div>
-    </section>
-)
-
+    </section>;
 const Index = () => {
-  return (
-    <div className="flex flex-col min-h-screen bg-background font-sans">
+  return <div className="flex flex-col min-h-screen bg-background font-sans">
       <Header />
       <main className="flex-grow">
         <Hero />
@@ -87,8 +82,6 @@ const Index = () => {
         <FinalCTA />
       </main>
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Index;
