@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import Icon from './Icon';
@@ -45,7 +44,7 @@ const Features = () => {
                            <CardTitle>{feature.title}</CardTitle>
                         </CardHeader>
                         <CardContent>
-                            <p className="text-muted-foreground">{feature.description}</p>
+                            <p className="text-sm text-white font-light">{feature.description}</p>
                         </CardContent>
                     </Card>)}
             </div>
