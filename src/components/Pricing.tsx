@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -22,7 +23,7 @@ const plans = [{
   isPopular: false
 }];
 const Pricing = () => {
-  return <section id="pricing" className="pt-10 lg:pt-16 pb-20 lg:pb-32">
+  return <section id="pricing" className="py-20 lg:py-32">
             <div className="container mx-auto px-4">
                 <div className="text-center max-w-3xl mx-auto">
                     <p className="text-primary my-[22px] text-xl font-thin">PRICING</p>

@@ -20,7 +20,7 @@ const testimonials = [{
   avatar: "ME"
 }];
 const Testimonials = () => {
-  return <section id="testimonials" className="pt-0 lg:pt-0 pb-20 lg:pb-32 bg-background">
+  return <section id="testimonials" className="py-20 lg:py-32 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
             <p className="text-primary my-[22px] text-xl font-thin">CLIENT FEEDBACK</p>
