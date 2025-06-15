@@ -1,7 +1,8 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const Hero = () => {
-  return <section className="relative pt-40 pb-20 lg:pt-56 lg:pb-32 overflow-hidden">
+  return <section className="relative pt-40 pb-10 lg:pt-56 lg:pb-16 overflow-hidden">
       <div className="absolute inset-0 -z-10">
         <div className="absolute inset-0 bg-black" />
       </div>
