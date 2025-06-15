@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -10,6 +9,7 @@ import Footer from "@/components/Footer";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Icon from "@/components/Icon";
+
 const ProductShowcase = () => <section id="platform" className="pt-12 lg:pt-20 pb-0">
     <div className="container mx-auto px-4">
       <div className="text-center max-w-3xl mx-auto">
@@ -74,8 +74,8 @@ const Index = () => {
       <main className="flex-grow">
         <Hero />
         <ProductShowcase />
-        <Features />
         <Solutions />
+        <Features />
         <ContentRevolution />
         <Pricing />
         <Testimonials />
@@ -86,4 +86,3 @@ const Index = () => {
     </div>;
 };
 export default Index;
-
