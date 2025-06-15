@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 const faqs = [{
@@ -17,7 +18,7 @@ const faqs = [{
   a: "Yes, we do! We offer a 30% discount for registered non-profit organizations. Please contact our support team with your documentation to apply for the discount."
 }];
 const Faq = () => {
-  return <section id="faq" className="py-20 lg:py-32">
+  return <section id="faq" className="pt-0 pb-20 lg:pb-32">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
             <p className="text-primary my-[22px] text-xl font-thin">FREQUENTLY ASKED QUESTIONS</p>
