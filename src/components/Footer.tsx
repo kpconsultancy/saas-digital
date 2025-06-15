@@ -20,8 +20,14 @@ const Footer = () => {
           <div className="text-center">
             <h3 className="font-semibold">Contact Us</h3>
             <ul className="mt-4 space-y-2 text-sm">
-              <li className="text-foreground">📧 hello@brightforge.ai</li>
-              <li className="text-foreground">📞 +1 (000) 000-0000</li>
+              <li className="flex items-center justify-center gap-2 text-foreground">
+                <Icon iconName="mail" className="h-4 w-4 text-primary" />
+                <span>hello@brightforge.ai</span>
+              </li>
+              <li className="flex items-center justify-center gap-2 text-foreground">
+                <Icon iconName="phone" className="h-4 w-4 text-primary" />
+                <span>+1 (000) 000-0000</span>
+              </li>
             </ul>
           </div>
         </div>
