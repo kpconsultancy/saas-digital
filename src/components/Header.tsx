@@ -1,5 +1,5 @@
 
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import Icon from './Icon';
 
@@ -13,6 +13,28 @@ const navLinks = [
 ];
 
 const Header = () => {
+  const [activeLink, setActiveLink] = useState("");
+
+  useEffect(() => {
+    const handleScroll = () => {
+      let current = "";
+      for (const link of navLinks) {
+        const section = document.querySelector(link.href);
+        if (section) {
+          const sectionTop = (section as HTMLElement).offsetTop;
+          if (window.scrollY >= sectionTop - 150) {
+            current = link.href;
+          }
+        }
+      }
+      setActiveLink(current);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    handleScroll(); // Set active link on initial load
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-sm">
       <div className="container mx-auto flex items-center justify-between h-20 px-4">
@@ -22,7 +44,15 @@ const Header = () => {
         </div>
         <nav className="hidden md:flex items-center gap-6">
           {navLinks.map(link => (
-            <a key={link.title} href={link.href} className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors">
+            <a 
+              key={link.title} 
+              href={link.href} 
+              className={`text-sm font-medium transition-colors ${
+                activeLink === link.href 
+                ? 'text-pink-500' 
+                : 'text-muted-foreground hover:text-foreground'
+              }`}
+            >
               {link.title}
             </a>
           ))}
