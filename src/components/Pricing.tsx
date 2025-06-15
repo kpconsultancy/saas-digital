@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from '@/components/ui/card';
@@ -38,7 +37,7 @@ const Pricing = () => {
                 </div>
                 <div className="mt-12 grid grid-cols-1 gap-8 max-w-lg mx-auto">
                     {plans.map(plan => (
-                        <Card key={plan.name} className={`flex flex-col ${plan.isPopular ? 'border-primary bg-primary/5' : ''}`}>
+                        <Card key={plan.name} className={`flex flex-col text-center ${plan.isPopular ? 'border-primary bg-primary/5' : ''}`}>
                             <CardHeader>
                                 <CardTitle>{plan.name}</CardTitle>
                                 <CardDescription>{plan.description}</CardDescription>
@@ -50,7 +49,7 @@ const Pricing = () => {
                             <CardContent className="flex-grow">
                                 <ul className="space-y-3">
                                     {plan.features.map(feature => (
-                                        <li key={feature} className="flex items-center gap-2">
+                                        <li key={feature} className="flex items-center justify-center gap-2">
                                             <Icon iconName="check" className="w-5 h-5 text-primary" />
                                             <span className="text-muted-foreground">{feature}</span>
                                         </li>
