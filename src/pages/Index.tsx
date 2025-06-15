@@ -1,4 +1,3 @@
-
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import Features from "@/components/Features";
@@ -38,7 +37,7 @@ const ContentRevolution = () => {
   }];
   return <section id="services" className="py-4 lg:py-6">
             <div className="container mx-auto px-4 text-center">
-                <p className="text-primary my-[22px] text-xl font-thin">SERVICES</p>
+                <p className="text-primary text-xl font-thin my-[22px] py-0">SERVICES</p>
                 <h2 className="mt-2 text-3xl md:text-4xl font-extrabold tracking-tight">Content. Precision. Scale. Powered by AI.</h2>
                 <p className="mt-4 max-w-3xl mx-auto text-base font-light text-white">From blog posts to global campaigns, BrightForge delivers precise, impactful content that resonates with your audience wherever they are.</p>
                 <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
