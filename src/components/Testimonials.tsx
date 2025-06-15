@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
@@ -29,14 +28,14 @@ const Testimonials = () => {
         <div className="mt-12 grid grid-cols-1 lg:grid-cols-3 gap-8">
           {testimonials.map(t => <Card key={t.name} className={`flex flex-col justify-between ${t.isPopular ? 'border-primary bg-primary/5' : ''}`}>
               <CardContent className="pt-6">
-                <p className="text-muted-foreground">"{t.quote}"</p>
+                <p className="text-muted-foreground text-center text-sm font-thin">"{t.quote}"</p>
               </CardContent>
               <div className="p-6 flex items-center gap-4">
                   <Avatar>
                       <AvatarFallback>{t.avatar}</AvatarFallback>
                   </Avatar>
                   <div>
-                      <p className="font-semibold">{t.name}</p>
+                      <p className="font-semibold text-left">{t.name}</p>
                       <p className="text-sm text-muted-foreground">{t.title}</p>
                   </div>
               </div>
